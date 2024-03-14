@@ -25,6 +25,7 @@ function lampbroken(){
     lamp.src = 'quebrada.jpg'
 }
 lampon.addEventListener('click',turnon);
+lampoff.addEventListener('click',turnoff);
 lampada.addEventListener('mouseover',turnon);
 lampada.addEventListener('mouseleave',turnoff);
 lampada.addEventListener('dblclick',lampbroken);
